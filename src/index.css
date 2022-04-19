@@ -1,13 +1,63 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+    font: 20px "Century Gothic", Futura, sans-serif;
+    color: yellow;
+    margin-top: 50px;
+    margin-left: 200px;
+    background-color: blue;
+  }
+  
+  ol, ul {
+    padding-left: 20px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
+  
+  .square {
+    background: #fff;
+    border: 3px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 50px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 50px;
+  }
+  
+  .square:focus {
+    outline: none;
+    
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+    
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+    /* Align items make box go down with history. Don't use */
+    /* align-items: center; */
+  }
+  
+  .game-info {
+    margin-left: 50px;
+    
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  h1 {
+      margin-left: 70px;
+      margin-bottom: 50px;
+  }
