@@ -1,10 +1,10 @@
 body {
     font: 20px "Century Gothic", Futura, sans-serif;
-    color: yellow;
     margin-top: 50px;
     margin-left: 200px;
-    background-color: blue;
-  }
+    background-image: url(https://th.bing.com/th/id/R.642fecbcea63dac4ee46b4161575b4f2?rik=P%2bp0CpuwTfNedg&riu=http%3a%2f%2fwww.pptbackgrounds.org%2fuploads%2ftic-tac-toe-backgrounds-wallpapers.jpg&ehk=pEa%2bzIERJvzkLrHGGaFxo6l3P6K7VZh2EFQCDU2YkWY%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+}
   
   ol, ul {
     padding-left: 20px;
@@ -60,4 +60,5 @@ body {
   h1 {
       margin-left: 70px;
       margin-bottom: 50px;
+      text-shadow: 4px 4px #ddd;
   }
